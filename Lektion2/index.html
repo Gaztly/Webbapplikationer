@@ -3,11 +3,16 @@
 
     <head>
         <title>Lektion 2</title>
-        <base target="_bland"/>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
 
+        <base target="_bland"/>
     </head>
 
     <body>
+        <h1>
+
+            <header>My Website</header>
+        </h1>
         <nav>
             <hr />
             <a href="https://github.com/Gaztly?tab=repositories"> Github Gaztly </a>
@@ -15,14 +20,14 @@
             <hr />
 
         </nav>
-        <h2>Span </h2>
+        <h2 id="title">Span </h2>
             <h3>Handelsakademin
             </h3>
 
                 <span>SOS21</span>
             GB
         </h2>
-        <h2>Descriptive list</h2>
+        <h2 id="title">Descriptive list</h2>
         <dl>
             <dt>Definition</dt>
             <dd>Beskrivning</dd>
@@ -34,12 +39,12 @@
  
         <!--Overide base with target-->
 <hr />
-<h2>Form Demo</h2>
+<h2 class="mainHeader">Form Demo</h2>
 <label for="firstName">First Name:</label><br />
 <input type="text" name="firstName" /> <br />
 <label for="lastName">Last Name:</label> <br />
 <input type="text" name="lastName"/> <br />
-<label for="emailAddress">Email Adress:</label><br />
+    <label for="emailAddress">Email Adress:</label><br />
 <input type="email" name="emailAddress" /> <br />
 <label for="password">Password:</label><br />
 <input type="password" name="password" /> <br />
